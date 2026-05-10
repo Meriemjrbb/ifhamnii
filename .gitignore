@@ -1,0 +1,50 @@
+# Data folders (too heavy)
+data/
+frames/
+landmarks/
+segments/
+videos/
+texts/
+text_cleaned/
+demo_results/
+demo_results_all/
+
+# Model files (too large)
+models/
+embeddings/
+experiments/
+
+# Tokenizers (generated, not needed)
+tokenizer/
+tokenizer_4k/
+tokenizer_8k/
+tokenizer_farasa/
+
+# Keep only tokenizer_word (needed by api.py)
+# tokenizer_word/  ← DON'T exclude this one
+
+# Scripts (internal tools)
+scripts/
+steps1/
+results/
+desktop.ini
+environment.yml
+evaluate_demo_candidates.py
+labels.csv
+README_LOCAL.md
+setup_projet.bat
+# Python cache
+__pycache__/
+*.pyc
+*.pth
+*.pt
+
+# Frontend
+ifhamnii/node_modules/
+ifhamnii/dist/
+ifhamnii/.env
+ifhamnii/.env.local
+ifhamnii/public/signs
+
+# Environment
+.env

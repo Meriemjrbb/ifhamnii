@@ -1,0 +1,21 @@
+{
+  "type": "word",
+  "vocab_size": 8622,
+  "min_frequency": 1,
+  "special_tokens": {
+    "unk": "<UNK>",
+    "unk_id": 0,
+    "bos": "<SOS>",
+    "bos_id": 1,
+    "eos": "</s>",
+    "eos_id": 2,
+    "pad": "<PAD>",
+    "pad_id": 3
+  },
+  "stats": {
+    "n_sentences": 665,
+    "avg_len_tokens": 44.67,
+    "max_len_tokens": 226,
+    "unk_rate_pct": 0.0
+  }
+}

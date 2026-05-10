@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+html[data-theme="dark"] body {
+  background: #071512;
+}
+
+html[data-theme="dark"] .min-h-screen.bg-gradient-to-br,
+html[data-theme="dark"] .flex-1.bg-gradient-to-br {
+  background-image: linear-gradient(135deg, #071512, #102a24, #0b1f1a) !important;
+}
+
+html[data-theme="dark"] .bg-\[\#F6FBF8\],
+html[data-theme="dark"] .bg-\[\#F1FAEE\],
+html[data-theme="dark"] .bg-\[\#E8F5F1\] {
+  background-color: #0f2721 !important;
+}
+
+html[data-theme="dark"] .bg-white,
+html[data-theme="dark"] .bg-white\/80,
+html[data-theme="dark"] .bg-white\/90 {
+  background-color: #132e27 !important;
+}
+
+html[data-theme="dark"] .ifhamnii-logo,
+html[data-theme="dark"] .ifhamnii-logo.bg-white {
+  background-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .text-\[\#1B4332\] {
+  color: #e8f5f1 !important;
+}
+
+html[data-theme="dark"] .text-\[\#52796F\],
+html[data-theme="dark"] .placeholder\:text-\[\#52796F\]\/50::placeholder,
+html[data-theme="dark"] .placeholder\:text-\[\#52796F\]\/60::placeholder {
+  color: #a9cfc4 !important;
+}
+
+html[data-theme="dark"] .border-\[\#52B69A\],
+html[data-theme="dark"] .border-gray-50 {
+  border-color: #21483e !important;
+}
+
+html[data-theme="dark"] .ring-\[\#D8F3DC\],
+html[data-theme="dark"] .ring-\[\#E8F5F1\] {
+  --tw-ring-color: #21483e !important;
+}
+
+html[data-theme="dark"] .shadow-md,
+html[data-theme="dark"] .shadow-lg,
+html[data-theme="dark"] .shadow-xl,
+html[data-theme="dark"] .shadow-2xl {
+  --tw-shadow-color: rgb(0 0 0 / 0.35) !important;
+}
